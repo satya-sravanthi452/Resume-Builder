@@ -1,0 +1,116 @@
+body{
+    margin-right: 50px;
+
+}
+.con a{
+    padding-top: 50px;
+    color: blueviolet;
+    padding:30px;
+    text-decoration: none;
+    border-left: 50px;
+}
+h1{
+    text-align:center;
+}
+.hi{
+    width: 300px;
+    
+  
+    margin:auto;
+    
+}
+input{
+    width: 300px;
+    margin-bottom: 10px;
+    border:3px solid black;
+
+    padding:20px;
+    
+}
+.h2{
+    color:hotpink;
+}
+
+
+.satya{
+    display: flex;
+    display: block;
+    width:300px;
+    text-decoration: none;
+    border:3px solid whitesmoke;
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom:10px ;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.sir{
+    display:flex;
+    gap:10px;
+    margin-bottom: 10px;
+   
+}
+.sir hr{
+    flex:1;
+}
+
+#ji{
+    margin-top: 20px;
+    background-color: aqua;
+    width:200px;
+    margin-left:50px ;
+    border-radius: 30px;
+}
+#message{
+    margin-top: 2px;
+    color:red;
+}
+#mes{
+    margin-top:2px;
+    color:red;
+}
+.gi{
+    margin-top: 40px;
+    margin-left: 60px;
+    animation: flipYLoop 6s ease-in-out infinite;
+    float:left;
+
+}
+.di{
+    width:150px;
+    height:10px;
+    display:inline-block;
+    font-size: 20px;
+    margin-left: 70px;
+    color:orange;
+    
+    border:2px solid white;
+    border-radius: 20px;
+    text-align: center;
+    
+    background-color:bisque;
+}
+.di:hover{
+    color: whitesmoke;
+    background-color:darkgrey;
+    text-decoration: underline;
+}
+
+@keyframes flipYLoop {
+    0%   { transform: rotateY(0deg); }
+    25%  { transform: rotateY(180deg); }
+    50%  { transform: rotateY(360deg); }
+    100% { transform: rotateY(360deg); }
+}
+.hell{
+    font-size: large;
+    float: inline-end;
+    font-style:oblique;
+    margin-left: 50px;
+    margin-right: 30px;
+}
+#ti{
+    margin-left: 30px;
+    margin-top: 70px;
+    
+}
