@@ -1,0 +1,9 @@
+.resume{
+    display: flex;
+    gap: 20px;
+    
+}
+.resume a{
+    color:black;
+    text-decoration: none;
+}
